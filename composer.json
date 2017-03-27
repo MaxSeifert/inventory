@@ -1,5 +1,5 @@
 {
-  "name": "t3g/blog",
+  "name": "myvendor/blog",
   "description": "inventory extension",
   "minimum-stability": "dev",
   "type": "typo3-cms-extension",
@@ -13,12 +13,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "T3G\\AgencyPack\\Blog\\": "Classes/"
+      "MyVendor\\AgencyPack\\Blog\\": "Classes/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "T3G\\AgencyPack\\Blog\\Tests\\": "Tests/"
+      "MyVendor\\AgencyPack\\Blog\\Tests\\": "Tests/"
     }
   },
   "require": {
